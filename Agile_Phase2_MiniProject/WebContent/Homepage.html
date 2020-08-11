@@ -1,0 +1,43 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+	  <script src="graph.js" type="text/javascript"></script>
+	  <link href="HomepageStyle.css" type="text/css" rel="stylesheet" /></link>
+	  <title>My Chart </title>
+	</head>
+	<body>
+	<div class="header" >
+     <h1 style="font-size:20px;color:white">Menu</h1> 
+	</div>
+     <br>
+ 	 <div class="category">
+	    Category : <select class="dropdown" id="category" onchange="check()" >
+	    <option value="" selected="selected">Select category</option>
+		<option value="1">Category A</option>
+		<option value="2">Category B</option>
+		<option value="3">Category C</option>
+	 </select></div>
+	 <div class="category">
+		Product Type : <select class="dropdown" id="product" onchange="check()">
+	  <option value="" selected="selected">Select Products</option>
+		<option value="4">Laptop</option>
+		<option value="5">Harddisk</option>
+		<option value="6">Pendrive</option>
+	</select>  
+</div>
+		 <div class="category">
+  
+	Brand : <select class="dropdown" id="brand" onchange="check()">
+	  <option value="" selected="selected">Select Serial Number</option>
+		<option value="7">Lenovo</option>
+		<option value="8">Apple</option>
+		<option value="9">Acer</option>
+	</select>
+	</div>
+
+	  <div class="container">
+		<canvas id="myChart"></canvas>
+	  </div>
+	</body>
+	</html>
