@@ -8,5 +8,6 @@ Using CSS(Cascading Style Sheets) I have made it look and feel.
 
 Using JS(Java Script) I have given Actions to the Charts.
 
+
 # Output
 Using bar graphs I have made to see the sales represented in the bar graphs based on the categoris, products and finally on brands.
